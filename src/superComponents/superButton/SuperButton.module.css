@@ -1,0 +1,70 @@
+@keyframes blink {
+    0% {
+    left: -130%;
+    }
+    100% {
+left: 130%;
+    }
+}
+
+
+.default {
+
+}
+
+.red {
+    background: red;
+}
+
+.button {
+    width: 80px;
+    margin: 0 2px;
+    text-decoration: none;
+    color: #000;
+    border: #000 solid 2px;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background-color: #fff;
+    /*position: relative;*/
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.button:hover {
+    background-color: #333;
+    border-color: #333;
+    color: #fff;
+    animation: blink 0.35s ease;
+}
+
+.button::after {
+    display: block;
+    content: '';
+    position: absolute;
+
+    left: -130%;
+    top: 0;
+    height: 100%;
+    width: 20%;
+    transform: skew(45deg);
+
+    opacity: 0.7;
+    background-color: #ffffff;
+    z-index: 14;
+}
+
+.button:active {
+    color: red;
+    background-color: #333;
+    border-color: #333;
+    transform: scale(0.9);
+}
+
+
+.redButton {
+    width: 70px;
+    height: 44px;
+    border-radius: 0;
+}
