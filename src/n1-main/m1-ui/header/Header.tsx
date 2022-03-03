@@ -1,9 +1,9 @@
 import React from 'react';
-import s from './Navbar.module.css'
+import s from './Header.module.css'
 import {NavLink} from "react-router-dom";
 
 
-const Navbar = () => {
+const Header = () => {
     return (
         <nav className={s.nav}>
             <div className={s.item}>
@@ -27,4 +27,4 @@ const Navbar = () => {
         </nav>
     )
 }
-export default Navbar
+export default Header
