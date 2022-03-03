@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/IgnatZakalinskyFridayProject/static/css/main.75a07567.css",
+    "main.js": "/IgnatZakalinskyFridayProject/static/js/main.4bb591c2.js",
+    "static/js/787.28cb0dcd.chunk.js": "/IgnatZakalinskyFridayProject/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/IgnatZakalinskyFridayProject/index.html",
+    "main.75a07567.css.map": "/IgnatZakalinskyFridayProject/static/css/main.75a07567.css.map",
+    "main.4bb591c2.js.map": "/IgnatZakalinskyFridayProject/static/js/main.4bb591c2.js.map",
+    "787.28cb0dcd.chunk.js.map": "/IgnatZakalinskyFridayProject/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75a07567.css",
+    "static/js/main.4bb591c2.js"
+  ]
+}
